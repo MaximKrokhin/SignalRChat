@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  signalrchat:
+    image: ${DOCKER_REGISTRY}signalrchat
+    build:
+      context: .
+      dockerfile: SignalRChat\Dockerfile
